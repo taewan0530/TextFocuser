@@ -2,7 +2,7 @@
 
 ![Swift](https://img.shields.io/badge/Swift-3.1-orange.svg)
 
-<img src="images/example.gif" width="160"/>
+<img src="images/example.gif"/>
 
 
 Easily and automatically focuses on the textField in the scrollView.
