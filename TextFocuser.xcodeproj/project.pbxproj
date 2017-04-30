@@ -14,7 +14,6 @@
 		1261658C1EB5ABD1004D0E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1261658A1EB5ABD1004D0E3C /* LaunchScreen.storyboard */; };
 		126165951EB5AC53004D0E3C /* TextFocuser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126165941EB5AC53004D0E3C /* TextFocuser.swift */; };
 		12A8BFD81EB5AF02000ABB5A /* KeyboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A8BFD71EB5AF02000ABB5A /* KeyboardInfo.swift */; };
-		12A8BFDA1EB5B562000ABB5A /* PlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A8BFD91EB5B562000ABB5A /* PlaceHolderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		1261658D1EB5ABD1004D0E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		126165941EB5AC53004D0E3C /* TextFocuser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFocuser.swift; sourceTree = "<group>"; };
 		12A8BFD71EB5AF02000ABB5A /* KeyboardInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardInfo.swift; sourceTree = "<group>"; };
-		12A8BFD91EB5B562000ABB5A /* PlaceHolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceHolderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +65,6 @@
 				126165881EB5ABD1004D0E3C /* Assets.xcassets */,
 				1261658A1EB5ABD1004D0E3C /* LaunchScreen.storyboard */,
 				1261658D1EB5ABD1004D0E3C /* Info.plist */,
-				12A8BFD91EB5B562000ABB5A /* PlaceHolderView.swift */,
 			);
 			path = TextFocuser;
 			sourceTree = "<group>";
@@ -155,7 +152,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				126165951EB5AC53004D0E3C /* TextFocuser.swift in Sources */,
-				12A8BFDA1EB5B562000ABB5A /* PlaceHolderView.swift in Sources */,
 				126165841EB5ABD1004D0E3C /* ViewController.swift in Sources */,
 				12A8BFD81EB5AF02000ABB5A /* KeyboardInfo.swift in Sources */,
 				126165821EB5ABD1004D0E3C /* AppDelegate.swift in Sources */,
