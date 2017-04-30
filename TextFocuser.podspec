@@ -8,11 +8,13 @@ Pod::Spec.new do |s|
   s.author           = { "taewan kim" => "taewan0530@daum.net" }
   s.source           = { :git => "https://github.com/taewan0530/TextFocuser.git",
                          :tag => s.version.to_s }
-  s.source_files     = "Sources/*.swift"
-  s.requires_arc     = true
-  s.frameworks       = 'UIKit'
-
-  s.ios.deployment_target = "8.0"
-  s.osx.deployment_target = "10.9"
-  s.tvos.deployment_target = "9.0"
+  
+  s.platform     = :ios, '8.0'
+  s.source_files = 'Sources/*.{swift,h}'
+  s.frameworks   = 'UIKit', 'Foundation'
+  s.requires_arc = true
+  s.pod_target_xcconfig = {
+    'SWIFT_VERSION' => '3.0'
+  }
+  
 end
