@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "TextFocuser"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "AutoFocus on textField"
   s.homepage         = "https://github.com/taewan0530/TextFocuser"
   s.license          = { :type => "MIT", :file => "LICENSE" }
