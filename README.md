@@ -8,6 +8,21 @@
 Easily and automatically focuses on the textField in the scrollView.
 Also available in collectionView and tableView.
 
+Installation
+------------
+
+- **For iOS 8+ projects with [CocoaPods](https://cocoapods.org):**
+
+    ```ruby
+    pod 'TextFocuser'
+    ```
+
+    
+
+Getting Started
+---------------
+
+
 ```swift
 class ViewController: UIViewController {
 
