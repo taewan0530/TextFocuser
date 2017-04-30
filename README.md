@@ -14,7 +14,8 @@ Installation
 - **For iOS 8+ projects with [CocoaPods](https://cocoapods.org):**
 
     ```ruby
-    pod 'TextFocuser'
+
+    pod 'TextFocuser', :git => 'https://github.com/taewan0530/TextFocuser'
     ```
 
     
