@@ -4,7 +4,7 @@
 //
 import UIKit
 
-final class TextFocuser: NSObject {
+final public class TextFocuser: NSObject {
     
     private var kyboardStatus: KeyboardStatus = .hide {
         didSet {
