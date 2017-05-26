@@ -33,27 +33,17 @@ final public class TextFocuser: NSObject {
                                                              action: #selector(onLooseKeyboardFocus))
         self.keyboardDismissGesture.isEnabled = self.scrollView?.keyboardDismissMode == .none
         self.scrollView?.addGestureRecognizer(self.keyboardDismissGesture)
-    
+        
         
         NotificationCenter.default
             .addObserver(self,
                          selector: #selector(keyboardWillChange),
                          name: .UIKeyboardWillChangeFrame,
                          object: nil)
-        
-        NotificationCenter.default
-            .addObserver(self,
-                         selector: #selector(keyboardDidShow),
-                         name: .UIKeyboardDidShow,
-                         object: nil)
     }
     
     func onLooseKeyboardFocus(sender: UITapGestureRecognizer) {
         self.scrollView?.endEditing(true)
-    }
-    
-    func keyboardDidShow(_ notification: Notification) {
-        print("keyboardDidShow")
     }
     
     
@@ -66,10 +56,7 @@ final public class TextFocuser: NSObject {
         
         let isHidden = keyboardInfo.endFrame.origin.y >= UIScreen.main.bounds.size.height
         
-        let oldIsHidden = self.kyboardStatus == .hide
         self.kyboardStatus = isHidden ? .hide : .show
-        
-        if isHidden == oldIsHidden { return }
         
         if isHidden {
             scrollView.contentInset.bottom = 0
